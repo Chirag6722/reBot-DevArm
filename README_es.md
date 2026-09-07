@@ -126,6 +126,14 @@
 - Recomendamos encarecidamente usar la fuente de alimentación [Mean Well 48 V 12.5 A](https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo0NzgzODk2NzUxNTQ0NzEyOjE3ODE2MTA2NTU6c3BfYXRmOjIwMDExNjA5NjQwMTc5ODo6MDo6&url=%2FLRS-350-48-Price-Switching-Supply-MeanWell%2Fdp%2FB0BP6S5DYR%2Fref%3Dsr_1_1_sspa%3Fcrid%3D27VPQOWNPN9UG%26dib%3DeyJ2IjoiMSJ9.qK84sGJa4-74kbCEX11MOFBju8sSQUdFsbHw6PNvmaEHnhzjX2T7dyhRNJY01mXxpWk8lccGOwnezxmqLKUjqglX_FI26mrxlvZf0KNiLdJ8QnhKsber4KDoyyLHNxWGV451uHCzZbCDXxM0iYXVnubuVourRaRURlyMorRavuLd2a32kABx-BKqyF5Dfr7dV453ecE6QULFqG-UVLBaBRijbxQGTJ2YiNyXAqn3bkM.Bt5mAPOJNAWGnXCC2mwvjdDdccZd1_0-WRXZpP4mR4M%26dib_tag%3Dse%26keywords%3DLRS-350-48%26qid%3D1781610655%26sprefix%3Dlrs-350-%252Caps%252C331%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1) para el modelo RS. Si necesitas más potencia para desbloquear todo su rendimiento, puedes optar por un adaptador de corriente de 48 V 25 A.
 ------------------
 
+## 🚀 Prueba la simulación en línea
+
+Experimenta el gemelo digital MuJoCo del reBot Arm B601-RS directamente en tu navegador, sin necesidad de instalar nada. Alterna entre las configuraciones de brazo estándar y AGV, controla las articulaciones y el TCP, consulta las cámaras cenital y de muñeca D405 y ejecuta las demostraciones automáticas de recogida y apilado. La primera carga del modelo puede tardar unos instantes; se recomienda usar Chrome o Edge.
+
+<p align="center">
+  <a href="https://yang-ci.github.io/Rebot_Arm_AGV/"><strong>▶ Iniciar la demostración interactiva de reBot Arm</strong></a>
+</p>
+
 
 ## 🗺️ Hoja de ruta y estado
 
@@ -165,6 +173,7 @@ Estamos comprometidos con el mantenimiento y la adaptación continuos a los prin
 | **Integración con LeRobot** |✅ Completado| Adaptación al framework de entrenamiento LeRobot de Hugging Face | [Getting Started with LeRobot-based reBot Arm](https://wiki.seeedstudio.com/rebot_arm_b601_rs_lerobot/) |
 | **Integración con Pinocchio** | ✅ Completado | Adaptación al framework Pinocchio, que habilita la cinemática directa/inversa y la compensación de gravedad del brazo robótico | [Getting Started with Pinocchio for reBot Arm B601-RS](https://wiki.seeedstudio.com/rebot_arm_b601_rs_pinocchio_meshcat/) y [Repositorio de GitHub](https://github.com/Seeed-Projects/reBotArm_control_py) |
 | **Integración con cámara de profundidad** | ✅ Completado  | Demostración de agarre visual basada en YOLO y cámara de profundidad | [Getting Started with Visual Grasping Demo](https://wiki.seeedstudio.com/rebot_arm_b601_dm_grasping_demo/) |
+| **Embodied Agent Architecture** | ✅ Complete | Accepts natural-language commands (e.g. "pick up the red block"), automatically plans and executes grasping. | [Embodied Agent Architecture Design for the reBot B601 RS Robotic Arm](https://wiki.seeedstudio.com/wrc_demo_tutorial/) & [Source Code](https://github.com/TheMoonAstronaut/wrc.git) |
 | **Simulación en Isaac Sim** |✅ Completado  | Importación de modelos USD y teleoperación simulada | [DLI Course](https://www.seeedstudio.com/sim-to-real-with-seeed-rebot-and-nvidia-isaac) & [Repositorio de GitHub](https://github.com/Seeed-Projects/reBot-Isaacsim) |
 | **Actualizaciones graduales con los últimos algoritmos** | ⏳ Planificado | Los algoritmos principales se irán actualizando progresivamente | En curso |
 | **Lanzamiento de una serie de cursos completamente gratuitos** | ⏳ Planificado | Se publicará progresivamente una serie de cursos gratuitos | En curso |

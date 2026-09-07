@@ -125,6 +125,14 @@
 - We highly recommend using the [Meanwell 48V 12.5A](https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo0NzgzODk2NzUxNTQ0NzEyOjE3ODE2MTA2NTU6c3BfYXRmOjIwMDExNjA5NjQwMTc5ODo6MDo6&url=%2FLRS-350-48-Price-Switching-Supply-MeanWell%2Fdp%2FB0BP6S5DYR%2Fref%3Dsr_1_1_sspa%3Fcrid%3D27VPQOWNPN9UG%26dib%3DeyJ2IjoiMSJ9.qK84sGJa4-74kbCEX11MOFBju8sSQUdFsbHw6PNvmaEHnhzjX2T7dyhRNJY01mXxpWk8lccGOwnezxmqLKUjqglX_FI26mrxlvZf0KNiLdJ8QnhKsber4KDoyyLHNxWGV451uHCzZbCDXxM0iYXVnubuVourRaRURlyMorRavuLd2a32kABx-BKqyF5Dfr7dV453ecE6QULFqG-UVLBaBRijbxQGTJ2YiNyXAqn3bkM.Bt5mAPOJNAWGnXCC2mwvjdDdccZd1_0-WRXZpP4mR4M%26dib_tag%3Dse%26keywords%3DLRS-350-48%26qid%3D1781610655%26sprefix%3Dlrs-350-%252Caps%252C331%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1) power supply for the RS model. If you need stronger power to unlock its full performance, you may opt for a 48V 25A power adapter.
 ------------------
 
+## 🚀 Try the Online Simulation
+
+Experience the reBot Arm B601-RS MuJoCo digital twin directly in your browser—no installation required. Switch between the standard arm and AGV configurations, control the joints and TCP, view the overhead and D405 wrist cameras, and run the automated put-away and stacking demos. The initial model download may take a moment; Chrome or Edge is recommended.
+
+<p align="center">
+  <a href="https://yang-ci.github.io/Rebot_Arm_AGV/"><strong>▶ Launch the reBot Arm Interactive Demo</strong></a>
+</p>
+
 
 ## 🗺️ Roadmap & Status
 
@@ -164,6 +172,7 @@ We are committed to continuously maintaining and adapting to mainstream robot de
 | **LeRobot Integration** |✅ Completed| Adaptation to the Hugging Face LeRobot training framework | [Getting Started with LeRobot-based reBot Arm](https://wiki.seeedstudio.com/rebot_arm_b601_rs_lerobot/) |
 | **Pinocchio Integration** | ✅ Completed | Adaptation to the Pinocchio framework, enabling forward/inverse kinematics and gravity compensation for the robotic arm | [Getting Started with Pinocchio for reBot Arm B601-DM](https://wiki.seeedstudio.com/rebot_arm_b601_rs_pinocchio_meshcat/) and [Github repo](https://github.com/Seeed-Projects/reBotArm_control_py) |
 | **Depth Camera Integration** | ✅ Completed  | Visual Grasping Demonstration Based on YOLO and Depth Camera | [Getting Started with Visual Grasping Demo](https://wiki.seeedstudio.com/rebot_arm_b601_dm_grasping_demo/) |
+| **Embodied Agent Architecture** | ✅ Complete | Accepts natural-language commands (e.g. "pick up the red block"), automatically plans and executes grasping. | [Embodied Agent Architecture Design for the reBot B601 RS Robotic Arm](https://wiki.seeedstudio.com/wrc_demo_tutorial/) & [Source Code](https://github.com/TheMoonAstronaut/wrc.git) |
 | **Isaac Sim Simulation** |✅ Completed  | Import USD models and enable simulated teleoperation |[DLI Course](https://www.seeedstudio.com/sim-to-real-with-seeed-rebot-and-nvidia-isaac) & [Github Repo](https://github.com/Seeed-Projects/reBot-Isaacsim) |
 | **Gradual Updates of the Latest Algorithms** | ⏳ Planned | Mainstream algorithms will be updated progressively | On going |
 | **Launch of a Series of Completely Free Courses** | ⏳ Planned | Mainstream algorithms will be updated progressively | Ongoing |
